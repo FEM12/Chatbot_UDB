@@ -28,10 +28,12 @@
 }
 
 .main {
+  height: 100vh;
+  padding: 10px;
   display: flex;
   flex-direction: column;
-  gap: 32px;
-  grid-row-start: 2;
+  justify-content: center;
+  align-items: center;
 }
 
 .main ol {
@@ -54,6 +56,138 @@
   padding: 2px 4px;
   border-radius: 4px;
   font-weight: 600;
+}
+
+.chat_container{
+  width: 800px;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.chat_header{
+  width: 100%;
+  height: 15%;
+  background-color: #000;
+  display: flex;
+}
+
+.container_logo{
+  width: 100px;
+  height: 100%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chatbot_logo{
+  width: 90%;
+  height: 90%;
+  background-position: center;
+  background-size: 100%;
+  border-radius: 50%;
+}
+
+.chat_name{
+  width: 500px;
+  height: 100%;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.chat_name p:first-child{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.chat_name .dot{
+  font-size: 20px;
+  color: #4eff65;
+  animation: parpadeo 2s infinite;
+}
+
+@keyframes parpadeo {
+  0% {opacity: 1;}
+  50% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.chat_body{
+  width: 100%;
+  height: 75%;
+  background-color: white;
+  padding: 10px;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.chat_body::-webkit-scrollbar{width: 0;}
+
+.my_message{
+  width: 100%;
+  text-align: right;
+}
+
+.my_message > *{
+  max-width: 60%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #494949;
+  color: white;
+  display: inline-block;
+}
+
+.bot_message{
+  width: 100%;
+  text-align: left;
+}
+
+.bot_message > *{
+  max-width: 60%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #252525;
+  color: white;
+  display: inline-block;
+}
+
+.chat_footer{
+  width: 100%;
+  height: 10%;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.chat_footer > *{
+  font-size: 20px;
+  color: #000;
+}
+
+.chat_footer input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  padding-left: 10px;
+  background-color: transparent;
+  
+}
+
+.chat_footer button{
+  width: 80px;
+  height: 100%;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
 }
 
 .ctas {
