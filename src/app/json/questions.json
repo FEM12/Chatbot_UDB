@@ -1,0 +1,77 @@
+[
+  {
+    "id":1,
+    "question":"¿Cuál es el calendario académico para este semestre?",
+    "answer":"answer 1"
+  },
+  {
+    "id":2,
+    "question":"¿Dónde puedo encontrar mi horario de clases?",
+    "answer":"answer 2"
+  },
+  {
+    "id":3,
+    "question":"¿Cuándo son los períodos de inscripción para cursos?",
+    "answer":"answer 3"
+  },
+  {
+    "id":4,
+    "question":"¿Dónde está la biblioteca y cuáles son sus horarios?",
+    "answer":"answer 4"
+  },
+  {
+    "id":5,
+    "question":"¿Cómo puedo contactar al departamento de servicios estudiantiles?",
+    "answer":"answer 5"
+  },
+  {
+    "id":6,
+    "question":"¿Hay algún evento importante en el campus esta semana?",
+    "answer":"answer 6"
+  },
+  {
+    "id":7,
+    "question":"¿Dónde puedo obtener ayuda si estoy experimentando estrés o problemas emocionales?",
+    "answer":"answer 7"
+  },
+  {
+    "id":8,
+    "question":"¿Cuáles son los recursos disponibles para estudiantes con discapacidades?",
+    "answer":"answer 8"
+  },
+  {
+    "id":9,
+    "question":"¿Qué servicios de asesoramiento o tutoría están disponibles para mejorar mi rendimiento académico?",
+    "answer":"answer 9"
+  },
+  {
+    "id":10,
+    "question":"¿Cómo puedo encontrar pasantías o prácticas profesionales relevantes para mi carrera?",
+    "answer":"answer 10"
+  },
+  {
+    "id":11,
+    "question":"¿Qué recursos ofrece la universidad para ayudarme a escribir mi currículum vitae?",
+    "answer":"answer 11"
+  },
+  {
+    "id":12,
+    "question":"¿Hay talleres disponibles para prepararme para entrevistas de trabajo?",
+    "answer":"answer 12"
+  },
+  {
+    "id":13,
+    "question":"¿Qué clubes o actividades extracurriculares están disponibles en el campus?",
+    "answer":"answer 13"
+  },
+  {
+    "id":14,
+    "question":"¿Hay alguna actividad interesante planeada para el fin de semana?",
+    "answer":"answer 14"
+  },
+  {
+    "id":15,
+    "question":"¿Cuáles son las opciones de alimentación disponibles en el campus?",
+    "answer":"answer 15"
+  }
+]
