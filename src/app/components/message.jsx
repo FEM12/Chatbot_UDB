@@ -6,7 +6,7 @@ export default function Messages({myMessage}) {
 
   const [answer,setAnswer] = useState([]);
   
-  useEffect(()=>{handleQuestion()},[])
+  useEffect(()=>{ setTimeout(() => {handleQuestion()},600); },[])
 
   const handleQuestion = () => {
 
@@ -15,7 +15,7 @@ export default function Messages({myMessage}) {
     const result = questions.filter(r => r.question == myMessage,);
 
     const resultFilterAnswer = result.length > 0 ? result.map(a => a.answer)
-    : ["Lo siento, no tengo una respuesta para eso."];
+    : ["¡Ups! 😅 No tengo una respuesta para eso en este momento. Pero si tienes otra pregunta o algo más en lo que pueda ayudarte, ¡estoy aquí para lo que necesites! 😊"];
 
     setAnswer([...answer,...resultFilterAnswer]);
 
@@ -31,7 +31,7 @@ export default function Messages({myMessage}) {
       {
         answer.map((msg,index) => (
           <span key={index} className={styles.bot_message}>
-            <p>{msg}</p>
+            <p dangerouslySetInnerHTML={{__html:msg}}></p>
           </span>
         ))
       }
